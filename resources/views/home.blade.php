@@ -1,7 +1,11 @@
 @extends('layout')
 
+@section('title')
+Página inicial
+@endsection
+
 @section('breadcrumbs')
-{{ Breadcrumbs::render('home') }}
+{{ Breadcrumbs::render('home', 'Página inicial') }}
 @endsection
 
 @section('content')
